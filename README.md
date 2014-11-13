@@ -10,6 +10,24 @@ client := NewClient(url, Config{key})
 db, err := client.CreateDatabase("foo")
 ```
 
+## Supported Operations
+
+- Database Operations
+ - CreateDatabase
+ - ReadDatabase
+ - DeleteDatabase
+- Collection Operations
+ - CreateCollection
+ - ReadCollection
+ - ListCollections
+ - DeleteCollection
+- Document Operations
+ - CreateDocument
+ - ReadDocument
+ - ListDocuments
+ - QueryDocuments
+ - DeleteDocument
+
 ## Install
 
 ```

@@ -4,7 +4,7 @@ go-documentdb is a golang implementation of the DocumentDB rest api.  The curren
 ## Example Usage
 
 ```go
-url := "https://xx.documents.azure.com:443"
+url := "https://xx.documents.azure.com/?WT.mc_id=opensource-0000-brketels"
 key := "02y0rthMgYRplBl2ztiRyXQuBFYkXluNDpKf/lNaSJiMKL6AYzwyxjRwdNEFWvvWo4TkpA6i3+T5f8FQEeDf8Q=="
 client := NewClient(url, Config{key})
 db, err := client.CreateDatabase("foo")
